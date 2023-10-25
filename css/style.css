@@ -6,7 +6,11 @@
 
 /* CONTAINER */
 
-.container{
+.buttons-container{
+
+}
+
+.section-container{
     width: 100%;
     position: relative;
     height: 100vh;
@@ -18,12 +22,40 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
+ 
+/* HEADER */
 
+/* LIST SETTINGS */
+
+.button-list{
+    list-style-type: none;
+    display: inline;
+}
+
+/* IMG SETTINGS */
 
 .shoes{
     max-width: 100%;
 }
 
+/* TEXT SETTINGS */
+
+*{
+    font-family: 'Kanit', sans-serif;
+}
+
+.font-title{
+    font-size: 80px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
 
 /* BG-COLORS */
 
