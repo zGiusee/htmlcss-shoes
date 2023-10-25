@@ -6,8 +6,16 @@
 
 /* CONTAINER */
 
-.buttons-container{
+.container{
+    width: 100%;
+}
 
+.buttons-container{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .section-container{
@@ -23,14 +31,31 @@
     transform: translate(-50%, -50%);
 }
  
+.row{
+    width: 100%;
+    display: flex;
+}
+
 /* HEADER */
 
 /* LIST SETTINGS */
 
 .button-list{
     list-style-type: none;
-    display: inline;
+    padding: 50px
 }
+
+.button-list li{
+    display: inline;
+    padding: 0px 20px;
+}
+
+.button-list li a{
+    padding: 20px 30px;
+    border-radius: 100%;
+    background-color: white;
+}
+
 
 /* IMG SETTINGS */
 
@@ -79,6 +104,12 @@ a{
 
 .green{
     color: green;
+}
+
+/* COLUMNS */
+
+.col-100{
+    width: calc(100%);
 }
 
 
