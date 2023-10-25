@@ -7,8 +7,23 @@
 /* CONTAINER */
 
 .container{
-
+    width: 100%;
+    position: relative;
+    height: 100vh;
 }
+
+.img-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.shoes{
+    max-width: 100%;
+}
+
 
 /* BG-COLORS */
 
@@ -16,8 +31,8 @@
     background-color: red;
 }
 
-.bg-blue{
-    background-color: blue;
+.bg-green{
+    background-color: green;
 }
 
 .bg-yellow{
