@@ -6,3 +6,33 @@
 
 /* CONTAINER */
 
+.container{
+
+}
+
+/* BG-COLORS */
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+/* COLORS */
+
+.yellow{
+    color: yellow;
+}
+
+.green{
+    color: green;
+}
+
+
+
