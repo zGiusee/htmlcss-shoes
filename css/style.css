@@ -41,12 +41,12 @@
 /* LIST SETTINGS */
 
 .button-list{
+    display: flex;
     list-style-type: none;
     padding: 50px
 }
 
 .button-list li{
-    display: inline;
     padding: 0px 20px;
 }
 
